@@ -27,11 +27,18 @@
             <p>Internet adalah jaringan global yang menghubungkan jutaan perangkat. Melalui internet, pengguna dapat berbagi informasi dan berkomunikasi satu sama lain.</p>
             <h3>Bagaimana Internet Bekerja:</h3>
             <ul>
-                <li><strong>Infrastruktur</strong>: Terdiri dari kabel bawah laut, satelit, dan jaringan telekomunikasi yang menghubungkan berbagai negara dan benua.</li>
-                <li><strong>Protokol</strong>: Menggunakan protokol TCP/IP yang mengatur bagaimana data dikirim dan diterima.</li>
-                <li><strong>Alamat IP</strong>: Setiap perangkat memiliki alamat IP unik yang memungkinkan identifikasi dalam jaringan.</li>
+                <li><strong>Infrastruktur Fisik:</strong> Kabel bawah laut, fiber optik, dan jaringan nirkabel yang menghubungkan dunia.</li>
+                <li><strong>Alamat IP dan Protokol TCP/IP:</strong> Setiap perangkat memiliki alamat IP unik, dan data dikirim menggunakan protokol TCP/IP.</li>
+                <li><strong>Permintaan dan Respons (HTTP/HTTPS):</strong> Browser mengirim permintaan ke server, dan server merespons dengan halaman web.</li>
+                <li><strong>Nama Domain dan DNS:</strong> DNS menerjemahkan nama domain menjadi alamat IP.</li>
+                <li><strong>Internet Service Provider (ISP):</strong> ISP menghubungkan pengguna ke internet global.</li>
+                <li><strong>Routing Data:</strong> Data dikirim dalam bentuk paket-paket kecil melalui rute tercepat.</li>
             </ul>
-            <p>Sumber: <a href="https://www.cloudflare.com/learning/" target="_blank">Cloudflare</a></p>
+            <figure>
+                <img src="assets/images/internet.png" alt="Diagram Cara Kerja DNS">
+                <figcaption>Diagram ilustrasi cara kerja internet</figcaption>
+            </figure>
+            <p>Sumber: <a href="https://www.geeksforgeeks.org/how-does-the-internet-work/" target="_blank">Geeksforgeeks</a></p>
         </section>
 
         <section id="http">
@@ -43,7 +50,11 @@
                 <li><strong>Respons Server</strong>: Server memproses permintaan dan mengirimkan respons kembali.</li>
                 <li><strong>Enkripsi (HTTPS)</strong>: Data dienkripsi untuk mencegah penyadapan.</li>
             </ol>
-            <p>Sumber: <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview" target="_blank">MDN Web Docs</a></p>
+            <figure>
+                <img src="assets/images/https.png" alt="Perbedaan Http dan Https">
+                <figcaption>Perbedaan http dan https</figcaption>
+            </figure>
+            <p>Sumber: <a href="https://www.geeksforgeeks.org/difference-between-http-and-https/" target="_blank">Geeksforgeeks</a></p>
         </section>
 
         <section id="domain">
@@ -55,7 +66,11 @@
                 <li><strong>DNS Resolution</strong>: Nama domain diterjemahkan menjadi alamat IP oleh sistem DNS.</li>
                 <li><strong>Akses</strong>: Browser menggunakan alamat IP tersebut untuk terhubung ke server web.</li>
             </ul>
-            <p>Sumber: <a href="https://www.icann.org/" target="_blank">ICANN</a>: Organisasi pengelola nama domain global.</p>
+            <figure>
+                <img src="assets/images/domain.png" alt="Diagram Cara Kerja Domain">
+                <figcaption>Diagram ilustrasi cara kerja domain</figcaption>
+            </figure>
+            <p>Sumber: <a href="https://www.hostinger.com/tutorials/what-is-a-domain-name" target="_blank">Hostinger</a></p>
         </section>
 
         <section id="hosting">
@@ -63,10 +78,30 @@
             <p>Hosting adalah layanan yang menyediakan ruang di server untuk menyimpan data dan membuat situs web dapat diakses di internet.</p>
             <h3>Cara Kerja:</h3>
             <ul>
-                <li><strong>Server Hosting</strong>: Menyimpan file situs web.</li>
-                <li><strong>Konektivitas</strong>: Server tersedia 24/7 dengan koneksi internet stabil.</li>
-                <li><strong>Pengelolaan</strong>: Melalui panel kontrol atau FTP untuk mengelola konten.</li>
+                <li><strong>Penyimpanan Data di Server:</strong> Website disimpan dalam bentuk file (HTML, CSS, gambar, dsb.) di server hosting.</li>
+                <li><strong>Koneksi ke Internet:</strong> Server hosting memiliki koneksi internet cepat dan stabil agar website dapat diakses kapan saja.</li>
+                <li><strong>Permintaan dan Respons:</strong> 
+                    <ul>
+                        <li>Browser mengirimkan permintaan ke server hosting saat pengguna mengakses website.</li>
+                        <li>Server merespons dengan mengirimkan halaman web ke browser.</li>
+                    </ul>
+                </li>
+                <li><strong>Jenis Hosting:</strong> 
+                    <ul>
+                        <li>Shared Hosting: Beberapa website berbagi satu server.</li>
+                        <li>VPS Hosting: Server dibagi menjadi beberapa bagian dengan akses khusus.</li>
+                        <li>Dedicated Hosting: Satu server hanya digunakan untuk satu website.</li>
+                        <li>Cloud Hosting: Menggunakan beberapa server yang terhubung di cloud.</li>
+                    </ul>
+                </li>
+                <li><strong>Pengelolaan Hosting:</strong> Website dapat dikelola melalui Control Panel (seperti cPanel) atau FTP.</li>
+                <li><strong>Keamanan dan Backup:</strong> Hosting menyediakan firewall, SSL, dan backup otomatis untuk melindungi data.</li>
+                <li><strong>DNS Mapping:</strong> Hosting bekerja bersama DNS untuk mengarahkan domain ke alamat IP server hosting.</li>
             </ul>
+            <figure>
+                <img src="assets/images/hosting.jpg" alt="Diagram Cara Kerja Hosting">
+                <figcaption>Diagram ilustrasi cara kerja Hosting</figcaption>
+            </figure>
             <p>Sumber: <a href="https://www.hostinger.com/tutorials/what-is-web-hosting" target="_blank">Hostinger</a></p>
         </section>
 
@@ -79,6 +114,10 @@
                 <li><strong>Resolusi</strong>: Server DNS mencari dan mengembalikan alamat IP.</li>
                 <li><strong>Caching</strong>: Alamat IP disimpan sementara untuk akses lebih cepat di masa mendatang.</li>
             </ol>
+            <figure>
+                <img src="assets/images/dns2.png" alt="Diagram Cara Kerja DNS">
+                <figcaption>Diagram ilustrasi cara kerja DNS</figcaption>
+            </figure>
             <p>Sumber: <a href="https://www.cloudflare.com/learning/dns/what-is-dns/" target="_blank">Cloudflare</a></p>
         </section>
 
@@ -91,7 +130,11 @@
                 <li><strong>Permintaan HTTP/HTTPS</strong>: Browser mengirim permintaan ke server.</li>
                 <li><strong>Rendering</strong>: Mengolah HTML, CSS, dan JavaScript menjadi tampilan visual.</li>
             </ul>
-            <p>Sumber: <a href="https://developer.mozilla.org/en-US/docs/Web/Browser" target="_blank">MDN Web Docs</a></p>
+            <figure>
+                <img src="assets/images/browser.jpg" alt="Diagram Cara Kerja Browser" >
+                <figcaption>Diagram ilustrasi cara kerja browser dengan server</figcaption>
+            </figure>
+            <p>Sumber: <a href="https://developer.mozilla.org/en-US/docs/Web/Performance/How_browsers_work" target="_blank">MDN Web Docs</a></p>
         </section>
     </main>
 
